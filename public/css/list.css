@@ -1,0 +1,51 @@
+body {
+  text-align:center;
+}
+
+.line{
+  letter-spacing: -.40em;
+}
+
+.readOnly{
+  letter-spacing: normal;
+  display: inline-block;
+  border: solid 1px black;
+  padding: 1px;
+  font: 400 13.3333px Arial;
+  margin: 1px;
+  height: 20px;
+  vertical-align: top;
+  line-height: 20px;
+}
+
+.edit{
+  vertical-align: top;
+  margin: 1px;
+  text-align: center;
+}
+
+.year {
+  width: 70px;
+}
+.month {
+  width: 35px;
+}
+.name {
+  width: 180px;
+}
+.mainCategory {
+  width: 107px;
+}
+.subCategory {
+  width: 100px;
+}
+.price {
+  width: 70px;
+}
+
+.button{
+  width: 37px;
+}
+#button{
+  font-size: 11px;
+}

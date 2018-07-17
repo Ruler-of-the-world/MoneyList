@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/test', function () {
     return view('welcome');
 });
+
+Route::get('/money', 'LoadController@index')->name('money');
+Route::post('/save', 'SaveController@index')->name('save');
+Route::post('/edit', 'EditController@index')->name('edit');
+Route::post('/list', 'ListLoadController@index');
+
